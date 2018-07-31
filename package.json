@@ -1,0 +1,27 @@
+{
+  "name": "git-bookiza",
+  "version": "0.0.9",
+  "description": "Portable git commands for bookiza using gauth",
+  "main": "git.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marvindanig/npm-update-module.git"
+  },
+  "keywords": [
+    "bookiza",
+    "git",
+    "CLI",
+    "Commands"
+  ],
+  "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.1.0",
+    "executive": "1.5.11",
+    "ghrepo": "1.3.2",
+    "npm-execspawn": "1.3.0"
+  }
+}
